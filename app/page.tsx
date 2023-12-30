@@ -1,3 +1,4 @@
+import Image from 'next/image'
 export default function Home() {
   return (
       <div className="wrapper">
@@ -7,7 +8,7 @@ export default function Home() {
                   <div className="row text-center">
                   <div className="col-md-12">
                     <div className="hero-img">
-                      <img className="img-fluid" src="images/hero.png" alt="Home" />
+                      <Image className="img-fluid" width={0} height={0} sizes="100vw" src="/images/hero.png" alt="Home" />
                     </div>
                   </div>
                   <div className="col-md-12">
@@ -20,11 +21,11 @@ export default function Home() {
                   <div class="col-md-12">
                 <div class="client-list">
                   <ul>
-                    <li><img className="img-fluid" src="images/krungthep.svg" /></li>
-                    <li><img className="img-fluid" src="images/nodejs.svg" /></li>
-                    <li><img className="img-fluid" src="images/react.svg" /></li>
-                    <li><img className="img-fluid" src="images/typescript.svg" /></li>
-                    <li><img className="img-fluid" src="images/ubuntu.svg" /></li>
+                    <li><Image className="img-fluid" width={0} height={0} src="/images/krungthep.svg" /></li>
+                    <li><Image className="img-fluid" width={0} height={0} src="/images/nodejs.svg" /></li>
+                    <li><Image className="img-fluid" width={0} height={0} src="/images/react.svg" /></li>
+                    <li><Image className="img-fluid" width={0} height={0} src="/images/typescript.svg" /></li>
+                    <li><Image className="img-fluid" width={0} height={0} src="/images/ubuntu.svg" /></li>
                   </ul>
                 </div>
               </div>
