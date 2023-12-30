@@ -1,7 +1,3 @@
-import * as React from "react"
-import Svg, { SvgProps, Defs, Path } from "react-native-svg"
-
-
 export default function Home() {
   return (
       <div className="wrapper">
