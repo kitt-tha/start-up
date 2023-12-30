@@ -6,9 +6,8 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <title>Coming soon powered by Krungthep Startup</title> 
-         <link href="styles/style.css" rel="stylesheet" type="text/css" media="all" />
-          <link href="styles/bootstrap.min.css" rel="stylesheet" type="text/css" media="all" />
+        <title>Coming soon powered by Krungthep Startup</title>  
+           
       </head>
       <body>{children}</body>
     </html>

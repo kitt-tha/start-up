@@ -1,6 +1,9 @@
-import Image from 'next/image'
+import '/public/css/style.css';
+import 'bootstrap/dist/css/bootstrap.css';
+import Image from 'next/image';
 export default function Home() {
   return (
+      <>
       <div className="wrapper">
         <div id="main" className="main">
                 <div className="home"> 
@@ -14,8 +17,7 @@ export default function Home() {
                   <div className="col-md-12">
                     <div className="hero-content">
                       <h1>Weave from Krungthep Startup</h1> 
-                      <p>💥🌈🎉🥰  Something Awesome is Coming Soon. 👈🍫🎖️</p>
-                       
+                      <p>💥🌈🎉🥰  Something Awesome is Coming Soon. 👈🍫🎖️</p>                       
                     </div>
                   </div>
                   <div className="col-md-12">
@@ -38,5 +40,6 @@ export default function Home() {
 
              
     </div>
+    </>
   )
 }
