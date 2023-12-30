@@ -8,7 +8,7 @@ export default function Home() {
                   <div className="row text-center">
                   <div className="col-md-12">
                     <div className="hero-img">
-                      <Image className="img-fluid" width={0} height={0} sizes="100vw" src="/images/hero.png" alt="Home" />
+                      <Image className="img-fluid" width={0} height={0} sizes="100vw" src="/images/hero.png" alt="Hero" />
                     </div>
                   </div>
                   <div className="col-md-12">
@@ -18,14 +18,14 @@ export default function Home() {
                        
                     </div>
                   </div>
-                  <div class="col-md-12">
-                <div class="client-list">
+                  <div className="col-md-12">
+                <div className="client-list">
                   <ul>
-                    <li><Image className="img-fluid" width={0} height={0} src="/images/krungthep.svg" /></li>
-                    <li><Image className="img-fluid" width={0} height={0} src="/images/nodejs.svg" /></li>
-                    <li><Image className="img-fluid" width={0} height={0} src="/images/react.svg" /></li>
-                    <li><Image className="img-fluid" width={0} height={0} src="/images/typescript.svg" /></li>
-                    <li><Image className="img-fluid" width={0} height={0} src="/images/ubuntu.svg" /></li>
+                    <li><Image className="img-fluid" width={0} height={0} src="/images/krungthep.svg" alt="krungthep" /></li>
+                    <li><Image className="img-fluid" width={0} height={0} src="/images/nodejs.svg" alt="nodejs" /></li>
+                    <li><Image className="img-fluid" width={0} height={0} src="/images/react.svg" alt="react" /></li>
+                    <li><Image className="img-fluid" width={0} height={0} src="/images/typescript.svg" alt="typescript" /></li>
+                    <li><Image className="img-fluid" width={0} height={0} src="/images/ubuntu.svg" alt="ubuntu" /></li>
                   </ul>
                 </div>
               </div>
