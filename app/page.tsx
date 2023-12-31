@@ -1,7 +1,10 @@
+import { headers } from 'next/headers';
 import '/public/css/style.css';
 import 'bootstrap/dist/css/bootstrap.css';
 import Image from 'next/image';
 export default function Home() {
+  const headersList = headers();
+  
   return (
       <>
       <div className="wrapper">
@@ -16,7 +19,9 @@ export default function Home() {
                   </div>
                   <div className="col-md-12">
                     <div className="hero-content">
-                      <h1>Weave from Krungthep Startup</h1> 
+                      <h5>{headersList.get('host')}</h5>
+                      <h1>Weave from Krungthep Startup</h1>
+                        
                       <p>💥🌈🎉🥰  Something Awesome is Coming Soon. 👈🍫🎖️</p>                       
                     </div>
                   </div>
